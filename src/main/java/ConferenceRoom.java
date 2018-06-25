@@ -6,8 +6,7 @@ public class ConferenceRoom extends Room {
     private int dailyRate;
     private int bookedDays;
 
-    public ConferenceRoom(int capacity, int dailyRate, ArrayList<Guest> guests) {
-        super(guests);
+    public ConferenceRoom(int capacity, int dailyRate) {
         this.capacity = capacity;
         this.dailyRate = dailyRate;
         this.bookedDays = 0;

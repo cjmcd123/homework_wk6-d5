@@ -11,7 +11,7 @@ public class ConferenceRoomTest {
 
     @Before
     public void  setUp(){
-        conferenceRoom1 = new ConferenceRoom(12, 25, new ArrayList<Guest>());
+        conferenceRoom1 = new ConferenceRoom(12, 25);
     }
 
     @Test

@@ -8,8 +8,8 @@ public class Bedroom extends Room {
     private int nightlyRate;
     private int bookedNights;
 
-    public Bedroom(BedroomType type, int roomNum, int nightlyRate, ArrayList<Guest> guests) {
-        super(guests);
+    public Bedroom(BedroomType type, int roomNum, int nightlyRate) {
+
         this.type = type;
         this.roomNum = roomNum;
         this.nightlyRate = nightlyRate;

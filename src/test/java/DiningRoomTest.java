@@ -11,7 +11,7 @@ public class DiningRoomTest {
 
     @Before
     public void setUp(){
-        diningRoom1 = new DiningRoom(100, new ArrayList<Guest>());
+        diningRoom1 = new DiningRoom(100);
     }
 
     @Test

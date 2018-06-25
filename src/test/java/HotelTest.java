@@ -21,13 +21,13 @@ public class HotelTest {
 
     @Before
     public void setUp(){
-        diningRoom = new DiningRoom(50, new ArrayList<Guest>());
-        conferenceRoom1 = new ConferenceRoom(12, 50, new ArrayList<Guest>());
-        conferenceRoom2 = new ConferenceRoom(20, 100, new ArrayList<Guest>());
-        bedroom1 = new Bedroom(BedroomType.SINGLE, 1, 20, new ArrayList<Guest>());
-        bedroom2 = new Bedroom(BedroomType.DOUBLE, 2, 40, new ArrayList<Guest>());
-        bedroom3 = new Bedroom(BedroomType.LARGE, 3, 60, new ArrayList<Guest>());
-        bedroom4 = new Bedroom(BedroomType.SUITE, 4, 80, new ArrayList<Guest>());
+        diningRoom = new DiningRoom(50);
+        conferenceRoom1 = new ConferenceRoom(12, 50);
+        conferenceRoom2 = new ConferenceRoom(20, 100);
+        bedroom1 = new Bedroom(BedroomType.SINGLE, 1, 20);
+        bedroom2 = new Bedroom(BedroomType.DOUBLE, 2, 40);
+        bedroom3 = new Bedroom(BedroomType.LARGE, 3, 60);
+        bedroom4 = new Bedroom(BedroomType.SUITE, 4, 80);
         ArrayList<Room> listOfRooms = new ArrayList<Room>();
         listOfRooms.add(diningRoom);
         listOfRooms.add(conferenceRoom1);

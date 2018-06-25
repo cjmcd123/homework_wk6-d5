@@ -11,7 +11,7 @@ public class BedroomTest {
 
     @Before
     public void setUp(){
-        bedroom1 = new Bedroom(BedroomType.SINGLE, 1, 5, new ArrayList<Guest>());
+        bedroom1 = new Bedroom(BedroomType.SINGLE, 1, 5);
     }
 
     @Test

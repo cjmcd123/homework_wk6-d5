@@ -4,8 +4,7 @@ public class DiningRoom extends Room {
 
     private int capacity;
 
-    public DiningRoom(int capacity, ArrayList<Guest> guests) {
-        super(guests);
+    public DiningRoom(int capacity) {
         this.capacity = capacity;
     }
 
